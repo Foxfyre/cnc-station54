@@ -1,0 +1,61 @@
+{
+  "name": "cnc-station54",
+  "title": "Coyote & Crow - Encounter at Station 54",
+  "description": "The introductory module for Coyote & Crow by Coyote & Crow LLC. This Module contains everything you need to run your first game of Coyote & Crow. The Coyote & Crow system is required for this module to function",
+  "version": "1.0.0",
+  "author": "Charlotte Hamilton",
+  "authors": [
+    {
+      "name": "Foxfyre",
+      "email": "foxfyre2204@gmail.com",
+      "discord": "Foxfyre#2204"
+    },
+    {
+      "name": "Coyote And Crow",
+      "website": "https://coyoteandcrow.net",
+      "discord": "https://discord.gg/Fbm8Uevvny"
+    }
+  ],
+  "system": [
+    "coyote-and-crow"
+  ],
+  "scripts": [
+    "initialization.js"
+  ],
+  "packs": [
+    {
+      "label": "Actors (Station 54)",
+      "entity": "Actor",
+      "name": "actors-station-54",
+      "path": "packs/actors-station-54.db",
+      "system": "coyote-and-crow"
+    },
+    {
+      "label": "Journals (Station 54)",
+      "entity": "JournalEntry",
+      "name": "journals-station-54",
+      "path": "packs/journals-station-54.db",
+      "system": "coyote-and-crow"
+    },
+    {
+      "label": "Scenes (Station 54)",
+      "entity": "Scene",
+      "name": "scenes-station-54",
+      "path": "packs/scenes-station-54.db",
+      "system": "coyote-and-crow"
+    }
+  ],
+  "flags": {
+    "initializationPacks": [
+      "cnc-station54.actors-station-54",
+      "cnc-station54.journals-station-54",
+      "cnc-station54.scenes-station-54"
+    ]
+  },
+  "languages": [],
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9",
+  "url": "https://github.com/Foxfyre/cnc-station54",
+  "manifest": "https://raw.githubusercontent.com/Foxfyre/cnc-station54/main/module.json",
+  "download": "https://github.com/Foxfyre/cnc-station54/releases/download/v1.0.0/cnc-station54.zip"
+}
