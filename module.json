@@ -37,7 +37,7 @@
     ]
   },
   "url": "https://github.com/Foxfyre/cnc-station54",
-  "manifest": "https://github.com/Foxfyre/coyote-and-crow/releases/latest/download/module.json",
+  "manifest": "https://github.com/Foxfyre/cnc-station54/releases/latest/download/module.json",
   "download": "https://github.com/Foxfyre/cnc-station54/releases/download/1.0.2/cnc-station54.zip",
   "relationships": {
     "systems": [
