@@ -1,61 +1,58 @@
 {
+  "id": "cnc-station54",
   "name": "cnc-station54",
   "title": "Coyote & Crow - Encounter at Station 54",
-  "description": "The introductory module for Coyote & Crow by Coyote & Crow LLC. This Module contains everything you need to run your first game of Coyote & Crow. The Coyote & Crow system is required for this module to function",
-  "version": "1.0.1",
-  "author": "Charlotte Hamilton",
+  "description": "The introductory module for Coyote &amp; Crow by Coyote &amp; Crow LLC. This Module contains everything you need to run your first game of Coyote &amp; Crow. The Coyote &amp; Crow system is required for this module to function",
+  "version": "1.0.2",
   "authors": [
     {
       "name": "Foxfyre",
       "email": "foxfyre2204@gmail.com",
-      "discord": "Foxfyre#2204"
+      "discord": "Foxfyre#2204",
+      "flags": {}
     },
     {
       "name": "Coyote And Crow",
-      "website": "https://coyoteandcrow.net",
-      "discord": "https://discord.gg/Fbm8Uevvny"
+      "discord": "https://discord.gg/Fbm8Uevvny",
+      "flags": {}
     }
-  ],
-  "system": [
-    "coyote-and-crow"
   ],
   "scripts": [
     "initialization.js"
   ],
   "packs": [
     {
-      "label": "Actors (Station 54)",
-      "entity": "Actor",
-      "name": "actors-station-54",
-      "path": "packs/actors-station-54.db",
-      "system": "coyote-and-crow"
-    },
-    {
-      "label": "Journals (Station 54)",
-      "entity": "JournalEntry",
-      "name": "journals-station-54",
-      "path": "packs/journals-station-54.db",
-      "system": "coyote-and-crow"
-    },
-    {
-      "label": "Scenes (Station 54)",
-      "entity": "Scene",
-      "name": "scenes-station-54",
-      "path": "packs/scenes-station-54.db",
-      "system": "coyote-and-crow"
+      "label": "Encounter at Station 54",
+      "name": "encounter-at-station-54",
+      "path": "packs/encounter-at-station-54.db",
+      "system": "coyote-and-crow",
+      "type": "Adventure",
+      "private": false,
+      "flags": {}
     }
   ],
   "flags": {
     "initializationPacks": [
-      "cnc-station54.actors-station-54",
-      "cnc-station54.journals-station-54",
-      "cnc-station54.scenes-station-54"
+      "cnc-station54.encounter-at-station-54"
     ]
   },
-  "languages": [],
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "9",
   "url": "https://github.com/Foxfyre/cnc-station54",
   "manifest": "https://raw.githubusercontent.com/Foxfyre/cnc-station54/main/module.json",
-  "download": "https://github.com/Foxfyre/cnc-station54/releases/download/v1.0.1/cnc-station54.zip"
+  "download": "https://github.com/Foxfyre/cnc-station54/releases/download/v1.0.2/cnc-station54.zip",
+  "relationships": {
+    "systems": [
+      {
+        "id": "coyote-and-crow",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": 10,
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.291",
+    "maximum": "10"
+  }
 }
